@@ -1,0 +1,64 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #303030;
+    background: #F8F9FB;
+    word-spacing: 2px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+header {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+#menu-header a {
+    color: inherit;
+    display: block;
+    padding: 10px 17px;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1;
+}
+#menu-header .menu-item-3827 a:before, #menu-header .menu-item-14702 a:before {
+    background: #00c097;
+}
+a {
+    text-decoration: none;
+}
+ul, li {
+    list-style: none;
+    display: inline;
+}
+
+
+#menu-header .menu-item-3827 a:before, #menu-header .menu-item-14702 a:before {
+    background: #00c097;
+}
+menu
+li :hover {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #cacacb;
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    border-radius: 50%;
+    transform-origin: center;
+    transition: all .2s cubic-bezier(.56, .2, .25, 1);
+    transform: scale(0) translateY(-50%);
+}
+
+menu-wrapper
+
+menu-header-container
+
+search-box
+
+screen-reader-text
+
+/* icon_searc */
